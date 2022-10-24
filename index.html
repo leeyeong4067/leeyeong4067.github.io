@@ -2,45 +2,47 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>LeeJuyeong's resume</title>
+    <title>이주영의 포토폴리오</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<body style="height: 100%; margin: 0">
+    
 <body>
     <div class="wrapper">
-        <h1>Juyeong Lee's resume</h1> 
+        <h1>이주영의 포토폴리오</h1> 
     
         <section id="my_info">
-            <h2>My info</h2> 
+            <h2>내 정보</h2> 
             <img src="images/profile.jpg" alt="profile" />
             <table>
                 <tbody>
                     <tr id="myname">
-                        <th>Name</th>
-                        <td>Juyeong Lee</td>
+                        <th>이름</th>
+                        <td>이주영</td>
                     </tr>
                     <tr>
-                        <th>Job</th>
-                        <td>Student</td>
+                        <th>직업</th>
+                        <td>학생</td>
                     </tr>
                     <tr>
-                        <th>Age</th>
+                        <th>나이</th>
                         <td>24</td>
                     </tr>
                     <tr>
-                        <th>Area</th>
-                        <td>Busan</td>
+                        <th>거주지</th>
+                        <td>부산</td>
                     </tr>
                 </tbody>
             </table>
         </section>
             
         <section id=""about>
-            <h2>About</h2>
-            <p>Hello, I am Juyeong Lee, a student at Dong-Eui University of Science and Technology.</p>   
+            <h2>정보</h2>
+            <p>안녕하세요 동의과학대학교에 재학중인 이주영입니다.</p>   
         </section>
         
         <section id="contact">
-            <h2>Contact</h2>
+            <h2>연락처</h2>
             <ul>
                 <li>
                     leeyeong4067@naver.com
@@ -50,13 +52,45 @@
         
         <section id="skill">
             <h2>Skills</h2>
-            <ol>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Java</li>
-                <li>Javascript</li>
-                <li>Python</li>
-            </ol>
+            <div id="container" style="height: 400px"></div>
+  
+            <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
+            <script type="text/javascript">
+            var dom = document.getElementById('container');
+            var myChart = echarts.init(dom, null, {
+                renderer: 'canvas',
+                useDirtyRect: false
+            });
+            var app = {};
+            
+            var option;
+        
+            option = {
+            xAxis: {
+            type: 'category',
+            data: ['HTML', 'CSS', 'JAVA', 'JS', 'Python']
+            },
+            yAxis: {
+            type: 'value'
+            },
+            series: [
+            {
+                data: [70, 50, 80, 70, 60],
+                type: 'bar',
+                showBackground: true,
+                backgroundStyle: {
+                color: 'rgba(180, 180, 180, 0.2)'
+                }
+            }
+            ]
+        };
+        
+            if (option && typeof option === 'object') {
+                myChart.setOption(option);
+            }
+        
+            window.addEventListener('resize', myChart.resize);
+            </script>
         </section>
         
         <section id="project">
@@ -65,14 +99,19 @@
                 <li>
                     <h3>Java</h3>
                     <img src="images/cv.png" width="100%" height="550px"/>
-                    <p>convenient store stock management</p>
+                    <p>편의점 재고 관리 프로그램</p>
                     <a href="https://github.com/leeyeong4067/JavaProject" target="_blank">Check</a>
                 </li>
                 <li>
                     <h3>Web</h3>
-                    <img src="images/bs.png" width="100%" height="550px"/>
-                    <p>BookStore WebSite</p>
+                    <img src="images/bs.png" height="550px"/>
+                    <p>온라인 북스토어 사이트</p>
                     <a href="https://github.com/leeyeong4067/Web-Project" target="_blank">Check</a>
+                </li>
+                <li>
+                    <h3>Android</h3>
+                    <img src="images/sc.png">
+                    <p>일정 관리 어플</p>
                 </li>
             </ol>    
         </section>

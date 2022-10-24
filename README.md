@@ -1,1 +1,1 @@
-# Juyeong's resume
+# 이주영의 포토폴리오
