@@ -100,16 +100,16 @@ ul li::before {
 }
 
 ul li:nth-child(1)::before {
-    content: url('../images/ico_email.png');
+    content: url('../img/ico_email.png');
 }
 ul li:nth-child(2)::before {
-    content: url('../images/ico_email.png');
+    content: url('../img/ico_email.png');
 }
 ul li:nth-child(3)::before {
-    content: url('../images/ico_facebook.png');
+    content: url('../img/ico_facebook.png');
 }
 ul li:nth-child(4)::before {
-    content: url('../images/ico_blog.png');
+    content: url('../img/ico_blog.png');
 }
 
 #skill ol {
