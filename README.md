@@ -1,1 +1,34 @@
-# 이주영의 포토폴리오
+## 프로젝트 소개
+
+<p align="justify">
+  [사이트 바로가기](https://leeyeong4067.github.io/)<br>
+  <img src = "./img/md/md1.png">
+  해당 사이트는 모바일과 PC 를 지원합니다.<br>
+  <br>
+  <img src = "./img/md/md2.png">
+  <br>
+  <img src = "./img/md/md3.png">
+
+  + **Skill** 해당 언어의 능력을 EChart를 통해 표현했습니다 .<br>
+
+  <img src = "./img/md/md4.png">
+  + **Project** 지금 까지 작업한 프로젝트 내용들을 볼수 있습니다.<br>
+</p>
+
+<br>
+
+## 디렉토리 구조
+
+<p align="justify">
+
+  + **/img**: MD 및 웹사이트의 이미지 파일이 들어있습니다.
+  + **/css**: css 파일이 들어있습니다.
+</p>
+
+
+<br>
+
+## 사용 언어 및 프로그램
+
+|   HTML  |   CSS   |   jQuery   |  JavaScript  |  vscode  |
+| :-----: | :-----: |  :------:  | :----------: | :------: | 
