@@ -1,6 +1,6 @@
 ## 프로젝트 소개
 
-[사이트 바로가기](https://leeyeong4067.github.io)<br>
+[사이트 바로가기](https://leeyeong4067.github.io/portfolio/)<br>
 
 <p align="justify">
   <img src = "./img/md/md1.png"><br>
