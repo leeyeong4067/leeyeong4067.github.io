@@ -1,7 +1,7 @@
 ## 프로젝트 소개
 
 <p align="justify">
-  [사이트 바로가기] : https://leeyeong4067.github.io<br>
+  [사이트 바로가기](https://leeyeong4067.github.io)<br>
   <img src = "./img/md/md1.png"><br>
   해당 사이트는 모바일과 PC 를 지원합니다.<br>
   <br>
